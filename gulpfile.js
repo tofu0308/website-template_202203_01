@@ -18,7 +18,7 @@ const compileSass = (done) => {
   src(scssTarget)
     .pipe(
       sass({
-        outputStyle: 'expanded',
+        outputStyle: 'compressed',
       })
     )
     .pipe(rename({ extname: '.min.css' }))
