@@ -1,0 +1,20 @@
+$red: #ff0000;
+$blue: #3bbfce;
+$margin: 16px;
+.border {
+  margin: $margin;
+  border-color: $blue;
+}
+
+#content {
+  transition: all 4s ease;
+
+  background: $blue;
+  color: $red;
+}
+
+.foo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
